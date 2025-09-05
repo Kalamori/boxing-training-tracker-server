@@ -52,6 +52,7 @@ else:
     ]
 
     CSRF_TRUSTED_ORIGINS = [
+        env('DEPLOYED_FRONTEND_URL').rstrip('/'), # Deployed frontend url only
         env('DEPLOYED_BACKEND_URL').rstrip('/'), # Deployed backend url only
     ]
 
@@ -81,6 +82,9 @@ REST_FRAMEWORK = {
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    "DEFAULT_PERMISSION_CLASSES": (
+        "rest_framework.permissions.IsAuthenticated",
     ),
 }
 

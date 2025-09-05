@@ -38,6 +38,8 @@ class WorkoutDetailView(APIView):
 
     def get(self, request, pk):
         workout = self.get_workout(pk)
+        if workout.owner != request.user:
+            raise PermissionDenied('You do not have permission to perform this action.')
         serialized_workout = WorkoutSerializer(workout)
         return Response(serialized_workout.data)
 

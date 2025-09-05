@@ -15,7 +15,10 @@ class RoundListView(APIView):
         return Response(serializer.data, status=201)
 
     def get(self, request):
-        rounds = Round.objects.all()
+        if request.user.is_authenticated:
+            rounds = Round.objects.filter(owner=request.user)
+        else:
+            rounds = Round.objects.none()
         serialized_rounds = RoundSerializer(rounds, many=True)
         return Response(serialized_rounds.data)
 
