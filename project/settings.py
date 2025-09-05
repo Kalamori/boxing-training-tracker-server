@@ -45,14 +45,14 @@ if DEBUG:
     ]
 
 else:
-    ALLOWED_HOSTS = [env('DEPLOYED_BACKEND_URL').replace('https://', '')] # removes protocol (https://)
+    ALLOWED_HOSTS = [env('DEPLOYED_BACKEND_URL').replace('https://', '').rstrip('/'),] # removes protocol (https://)
 
     CORS_ALLOWED_ORIGINS = [
-        env('DEPLOYED_FRONTEND_URL'), # Deployed frontend url only
+        env('DEPLOYED_FRONTEND_URL').rstrip('/'), # Deployed frontend url only
     ]
 
     CSRF_TRUSTED_ORIGINS = [
-        env('DEPLOYED_BACKEND_URL'), # Deployed backend url only
+        env('DEPLOYED_BACKEND_URL').rstrip('/'), # Deployed backend url only
     ]
 
 # Application definition
