@@ -1,0 +1,486 @@
+[
+{
+  "model": "workouts.workout",
+  "pk": 2,
+  "fields": {
+    "owner": 2,
+    "workout_type": "other",
+    "date": "2025-08-02",
+    "duration": 20,
+    "notes": "Other session by Issa"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 3,
+  "fields": {
+    "owner": 2,
+    "workout_type": "sparring",
+    "date": "2025-08-20",
+    "duration": 45,
+    "notes": "Sparring session by Issa"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 4,
+  "fields": {
+    "owner": 2,
+    "workout_type": "pad_work",
+    "date": "2025-08-14",
+    "duration": 40,
+    "notes": "Pad Work session by Issa"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 5,
+  "fields": {
+    "owner": 2,
+    "workout_type": "sparring",
+    "date": "2025-08-30",
+    "duration": 20,
+    "notes": "Sparring session by Issa"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 6,
+  "fields": {
+    "owner": 3,
+    "workout_type": "flexibility",
+    "date": "2025-08-17",
+    "duration": 20,
+    "notes": "Flexibility session by Jack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 7,
+  "fields": {
+    "owner": 3,
+    "workout_type": "flexibility",
+    "date": "2025-08-20",
+    "duration": 20,
+    "notes": "Flexibility session by Jack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 8,
+  "fields": {
+    "owner": 3,
+    "workout_type": "bagwork",
+    "date": "2025-08-16",
+    "duration": 20,
+    "notes": "Bagwork session by Jack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 9,
+  "fields": {
+    "owner": 3,
+    "workout_type": "abdominal",
+    "date": "2025-08-27",
+    "duration": 45,
+    "notes": "Abdominal session by Jack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 10,
+  "fields": {
+    "owner": 3,
+    "workout_type": "running",
+    "date": "2025-08-31",
+    "duration": 45,
+    "notes": "Running session by Jack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 11,
+  "fields": {
+    "owner": 4,
+    "workout_type": "heavy_bag",
+    "date": "2025-08-17",
+    "duration": 20,
+    "notes": "Heavy Bag session by Ryan"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 12,
+  "fields": {
+    "owner": 4,
+    "workout_type": "heavy_bag",
+    "date": "2025-08-13",
+    "duration": 45,
+    "notes": "Heavy Bag session by Ryan"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 13,
+  "fields": {
+    "owner": 4,
+    "workout_type": "calisthenics",
+    "date": "2025-08-22",
+    "duration": 30,
+    "notes": "Calisthenics session by Ryan"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 14,
+  "fields": {
+    "owner": 4,
+    "workout_type": "bagwork",
+    "date": "2025-08-20",
+    "duration": 20,
+    "notes": "Bagwork session by Ryan"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 15,
+  "fields": {
+    "owner": 4,
+    "workout_type": "calisthenics",
+    "date": "2025-08-26",
+    "duration": 35,
+    "notes": "Calisthenics session by Ryan"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 16,
+  "fields": {
+    "owner": 5,
+    "workout_type": "running",
+    "date": "2025-08-15",
+    "duration": 30,
+    "notes": "Running session by Jim"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 17,
+  "fields": {
+    "owner": 5,
+    "workout_type": "footwork",
+    "date": "2025-08-08",
+    "duration": 25,
+    "notes": "Footwork session by Jim"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 18,
+  "fields": {
+    "owner": 5,
+    "workout_type": "heavy_bag",
+    "date": "2025-08-29",
+    "duration": 30,
+    "notes": "Heavy Bag session by Jim"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 19,
+  "fields": {
+    "owner": 5,
+    "workout_type": "abdominal",
+    "date": "2025-08-06",
+    "duration": 45,
+    "notes": "Abdominal session by Jim"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 20,
+  "fields": {
+    "owner": 5,
+    "workout_type": "heavy_bag",
+    "date": "2025-08-13",
+    "duration": 30,
+    "notes": "Heavy Bag session by Jim"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 21,
+  "fields": {
+    "owner": 6,
+    "workout_type": "jump_rope",
+    "date": "2025-08-16",
+    "duration": 35,
+    "notes": "Jump Rope session by Ruby"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 22,
+  "fields": {
+    "owner": 6,
+    "workout_type": "abdominal",
+    "date": "2025-08-20",
+    "duration": 20,
+    "notes": "Abdominal session by Ruby"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 23,
+  "fields": {
+    "owner": 6,
+    "workout_type": "running",
+    "date": "2025-08-17",
+    "duration": 40,
+    "notes": "Running session by Ruby"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 24,
+  "fields": {
+    "owner": 6,
+    "workout_type": "flexibility",
+    "date": "2025-08-03",
+    "duration": 30,
+    "notes": "Flexibility session by Ruby"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 25,
+  "fields": {
+    "owner": 6,
+    "workout_type": "running",
+    "date": "2025-08-11",
+    "duration": 40,
+    "notes": "Running session by Ruby"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 26,
+  "fields": {
+    "owner": 2,
+    "workout_type": "heavy_bag",
+    "date": "2025-08-04",
+    "duration": 45,
+    "notes": "Heavy Bag session by Issa"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 27,
+  "fields": {
+    "owner": 2,
+    "workout_type": "bagwork",
+    "date": "2025-08-22",
+    "duration": 30,
+    "notes": "6 rounds of heavy bag, working combinations."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 28,
+  "fields": {
+    "owner": 3,
+    "workout_type": "running",
+    "date": "2025-08-19",
+    "duration": 60,
+    "notes": "Roadwork (10km run)."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 29,
+  "fields": {
+    "owner": 3,
+    "workout_type": "sparring",
+    "date": "2025-08-23",
+    "duration": 40,
+    "notes": "5 rounds, worked on counters."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 30,
+  "fields": {
+    "owner": 4,
+    "workout_type": "bagwork",
+    "date": "2025-08-18",
+    "duration": 25,
+    "notes": "Power punching drills, uppercuts and hooks."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 31,
+  "fields": {
+    "owner": 4,
+    "workout_type": "other",
+    "date": "2025-08-24",
+    "duration": 50,
+    "notes": "Skipping rope and shadow boxing mix."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 32,
+  "fields": {
+    "owner": 5,
+    "workout_type": "sparring",
+    "date": "2025-08-21",
+    "duration": 35,
+    "notes": "4 rounds with a taller opponent, practiced jabs."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 33,
+  "fields": {
+    "owner": 5,
+    "workout_type": "bagwork",
+    "date": "2025-08-25",
+    "duration": 20,
+    "notes": "Speed bag session for endurance."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 34,
+  "fields": {
+    "owner": 6,
+    "workout_type": "other",
+    "date": "2025-08-19",
+    "duration": 30,
+    "notes": "Interval sprints and shadow boxing."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 35,
+  "fields": {
+    "owner": 6,
+    "workout_type": "sparring",
+    "date": "2025-08-26",
+    "duration": 50,
+    "notes": "6 rounds, worked on inside fighting."
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 36,
+  "fields": {
+    "owner": 2,
+    "workout_type": "sparring",
+    "date": "2025-09-01",
+    "duration": 30,
+    "notes": "Sparring session focusing on defense"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 37,
+  "fields": {
+    "owner": 4,
+    "workout_type": "sparring",
+    "date": "2024-08-07",
+    "duration": 25,
+    "notes": "Sparring session focusing on attack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 38,
+  "fields": {
+    "owner": 4,
+    "workout_type": "sparring",
+    "date": "2024-08-07",
+    "duration": 25,
+    "notes": "Sparring session focusing on attack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 39,
+  "fields": {
+    "owner": 5,
+    "workout_type": "sparring",
+    "date": "2025-08-07",
+    "duration": 30,
+    "notes": "Sparring session focusing on attack"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 40,
+  "fields": {
+    "owner": 10,
+    "workout_type": "sparring",
+    "date": "2025-09-04",
+    "duration": 40,
+    "notes": "Worked on defense and counterpunching"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 42,
+  "fields": {
+    "owner": 10,
+    "workout_type": "bagwork",
+    "date": "2025-09-05",
+    "duration": 60,
+    "notes": "Focus on jab-cross combinations"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 44,
+  "fields": {
+    "owner": 11,
+    "workout_type": "calisthenics",
+    "date": "2025-09-01",
+    "duration": 60,
+    "notes": "New Exercises Added"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 45,
+  "fields": {
+    "owner": 11,
+    "workout_type": "bagwork",
+    "date": "2025-09-03",
+    "duration": 60,
+    "notes": "Hooks and Jabs was the main focus"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 46,
+  "fields": {
+    "owner": 11,
+    "workout_type": "conditioning",
+    "date": "2025-09-02",
+    "duration": 60,
+    "notes": "Exercises mainly on core conditioning"
+  }
+},
+{
+  "model": "workouts.workout",
+  "pk": 47,
+  "fields": {
+    "owner": 11,
+    "workout_type": "shadowboxing",
+    "date": "2024-12-01",
+    "duration": 60,
+    "notes": "Jabs, Crosses, Hooks, Upcuts"
+  }
+}
+]
