@@ -9,6 +9,7 @@ psycopg2-binary = "*"
 autopep8 = "*"
 djangorestframework = "*"
 django-environ = "*"
+djangorestframework-simplejwt = "*"
 
 [dev-packages]
 
